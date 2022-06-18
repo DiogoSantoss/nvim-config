@@ -16,4 +16,7 @@ return require'packer'.startup(function()
 
     -- LSP
     use 'neovim/nvim-lspconfig'
+
+    -- Github Copilot
+    use 'github/copilot.vim'
 end)
