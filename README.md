@@ -25,6 +25,9 @@ Do 'PackerSync' to install
 
 Vim Options (for settings)
 http://vimdoc.sourceforge.net/htmldoc/options.html
+
+# Plugins
+
 NeoVim Packer
 https://github.com/wbthomason/packer.nvim
 Color Scheme
@@ -33,3 +36,7 @@ NeoVim Tree
 https://github.com/kyazdani42/nvim-tree.lua
 Neovim LSP
 https://github.com/neovim/nvim-lspconfig
+Neovim Auto-Completion
+https://github.com/hrsh7th/nvim-cmp
+Pictograms for LSP
+https://github.com/onsails/lspkind.nvim
