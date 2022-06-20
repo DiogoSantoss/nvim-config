@@ -26,6 +26,15 @@ Do 'PackerSync' to install
 Vim Options (for settings)
 http://vimdoc.sourceforge.net/htmldoc/options.html
 
+# How to install remotly
+# Install neovim (script from lunarvim.org)
+bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
+# clone configs
+git clone https://github.com/DiogoSantoss/nvim-config.git nvim
+# clone packer
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+# do :PackerSync inside packer module
+
 # Plugins
 
 NeoVim Packer
