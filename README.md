@@ -55,3 +55,5 @@ Barbar
 https://github.com/romgrk/barbar.nvim
 Treesitter
 https://github.com/nvim-treesitter/nvim-treesitter
+Telescope
+https://github.com/nvim-telescope/telescope.nvim

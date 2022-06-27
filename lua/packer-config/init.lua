@@ -48,4 +48,11 @@ return require'packer'.startup(function()
     }
     use 'nvim-treesitter/nvim-treesitter-refactor'
     use 'windwp/nvim-ts-autotag'
+
+    -- Telescope
+    use {
+        'nvim-telescope/telescope.nvim',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
 end)
