@@ -49,3 +49,9 @@ Neovim Auto-Completion
 https://github.com/hrsh7th/nvim-cmp
 Pictograms for LSP
 https://github.com/onsails/lspkind.nvim
+Lualine
+https://github.com/nvim-lualine/lualine.nvim
+Barbar
+https://github.com/romgrk/barbar.nvim
+Treesitter
+https://github.com/nvim-treesitter/nvim-treesitter

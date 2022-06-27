@@ -40,3 +40,9 @@ require('lspconfig')['pyright'].setup{
     capabilities = capabilities,
     flags = lsp_flags,
 }
+
+require('lspconfig')['html'].setup{
+    on_attach = on_attack,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}

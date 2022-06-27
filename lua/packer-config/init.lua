@@ -14,6 +14,18 @@ return require'packer'.startup(function()
     -- Tree File Explorer
     use 'kyazdani42/nvim-tree.lua'
 
+    -- Lualine
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
+
+    --Barbar
+    use {
+        'romgrk/barbar.nvim',
+        requires = {'kyazdani42/nvim-web-devicons'}
+    }
+
     -- LSP
     use 'neovim/nvim-lspconfig'
 
@@ -27,5 +39,13 @@ return require'packer'.startup(function()
     use 'onsails/lspkind-nvim'
 
     -- Github Copilot
-    use 'github/copilot.vim'
+    -- use 'github/copilot.vim'
+    
+    -- Treesitter
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+    use 'nvim-treesitter/nvim-treesitter-refactor'
+    use 'windwp/nvim-ts-autotag'
 end)
