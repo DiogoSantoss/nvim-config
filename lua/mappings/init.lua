@@ -1,9 +1,10 @@
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
-vim.g.mapleader = " " -- leader key
+-- leader key
+vim.g.mapleader = " "
 
--- nvim tree mappings
+-- nvim tree
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- terminal navigation
@@ -12,7 +13,7 @@ map("n", "<C-l>", "<C-\\><C-N><C-w>l", opts)
 map("n", "<C-j>", "<C-\\><C-N><C-w>j", opts)
 map("n", "<C-k>", "<C-\\><C-N><C-w>k", opts)
 
---barbar keybinds
+--barbar
 -- Move to previous/next
 map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
 map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
@@ -40,6 +41,6 @@ map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
 map('n', '<Space>bl', '<Cmd>BufferOrderByLanguage<CR>', opts)
 map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
 
--- Telescope
+-- telescope
 map('n', '<leader>ff', ':Telescope find_files<CR>', opts)
 map('n', '<leader>fg', ':Telescope live_grep<CR>', opts)
