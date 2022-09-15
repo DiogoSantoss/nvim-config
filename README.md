@@ -1,24 +1,5 @@
 # How to install
-## Install neovim (script from lunarvim.org)
-```bash
-bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
-```
-## Install lua
-```bash
-sudo apt install lua5.3
-```
-## clone configs
-```bash
-git clone https://github.com/DiogoSantoss/nvim-config.git nvim
-```
-## clone packer
-```bash
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-```
-## Alias
-```bash
-alias v="nvim"
-```
+Run the ```installation.sh``` script
 
 # Workflow
 Edit packer-config/init.lua  
