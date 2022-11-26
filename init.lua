@@ -1,6 +1,8 @@
 require('settings')
 require('mappings')
-require('colorschemes-config.nightfox')
+-- Broken for some reason
+-- require('colorschemes-config.nightfox')
+require('colorschemes-config.onedarkpro')
 require('packer-config')
 require('nvim-tree-config')
 require('lsp-config.language-servers')

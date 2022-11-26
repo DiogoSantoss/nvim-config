@@ -7,6 +7,7 @@ return require'packer'.startup(function()
 
     -- Color Scheme
     use 'EdenEast/nightfox.nvim'
+    use 'olimorris/onedarkpro.nvim'
 
     --Icons
     use 'kyazdani42/nvim-web-devicons'
